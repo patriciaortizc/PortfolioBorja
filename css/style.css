@@ -125,10 +125,6 @@ body {
   box-shadow: 0 0 8px var(--cyan);
 }
 
-/* ======================== */
-/* HERO  (index)            */
-/* ======================== */
-
 .hero {
   min-height: 100vh;
   position: relative;
@@ -995,7 +991,7 @@ footer::before {
     align-items: center;
     gap: 20px;
     padding: 20px 0;
-    display: flex !important;
+    display: none;
   }
 
   .menu.active {
