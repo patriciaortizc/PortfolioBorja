@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Borja Carrasco | VFX Artist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css">
+</head>
+
+<body>
+    <nav class="navbar navbar--solid">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logoprueba1000.png" alt="logo BC">
+            </a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="./work.html">WORK</a></li>
+                <li><a href="./about.html" class="active">ABOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="about-section py-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <h2 class="about-title">ABOUT</h2>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-10">
+                        <div class="about-box p-4">
+
+                            <p><strong>I’m an FX Artist</strong> based in Madrid, with experience in film, episodic and
+                                independent productions.
+
+                            <p>I have worked with different studios and projects, both in-house and freelance. I also
+                                support FXDailies Studio as a Teaching Assistant, helping students with their shots,
+                                solving
+                                technical problems, and supporting dailies sessions.</p>
+
+                            <p>I have been involved in different types of projects, from cinematic shorts to series
+                                work,
+                                including titles like <em>Alienoid: Return to the Future</em>, <em>Parasyte: The
+                                    Grey</em>,
+                                and <em>Take the Money and Run</em>.</p>
+
+                            <p>My work focuses on creating simulations that work well in production, keeping setups
+                                clean,
+                                and solving problems in an efficient way.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CONTACT TITLE -->
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <h2 class="contact-title">CONTACT</h2>
+                        <p class="contact-subtitle">
+                            If you have a project or any question, feel free to contact me.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CONTACT FORM -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="contact-box p-4">
+                            <form id="contactForm" class="container needs-validation" novalidate>
+                                <div class="row g-3">
+                                    <!-- FIRST NAME -->
+
+                                    <div class="col-12 col-md-6">
+                                        <label class="form-label">First Name</label>
+                                        <input type="text" class="form-control custom-input"
+                                            placeholder="Enter your first name" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+"
+                                            required>
+                                        <div class="invalid-feedback">
+                                            Only letters and spaces are allowed
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <label class="form-label">Last Name</label>
+                                        <input type="text" class="form-control custom-input"
+                                            placeholder="Enter your last name" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+"
+                                            required>
+                                        <div class="invalid-feedback">
+                                            Only letters and spaces are allowed
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <label class="form-label">Email</label>
+                                        <input type="email" class="form-control custom-input"
+                                            placeholder="example@email.com" required>
+                                        <div class="invalid-feedback">
+                                            Please enter a valid email
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <label class="form-label">Phone Number</label>
+                                        <input type="tel" id="telefono" class="form-control custom-input" required>
+                                        <div class="invalid-feedback">
+                                            Please enter your phone number
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label class="form-label">Message</label>
+                                        <textarea class="form-control custom-input" rows="4"
+                                            placeholder="Write your message..." required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please write a message
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button type="submit" class="btn custom-btn w-100">
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contacto-container">
+            <div class="info-contacto">
+                <p>Like what you see? <br>
+                    <span>Let’s create something amazing together</span>
+                </p>
+            </div>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/borja-carrasco/">
+                    <i class="fa-brands fa-linkedin"></i>
+                    Borja Carrasco
+                </a>
+                <a href="mailto:borjacarrasco25@gmail.com">
+                    <i class="fa-regular fa-envelope"></i>
+                    Borja Carrasco
+                </a>
+            </div>
+        </div>
+        <div class="footer-container">
+            <p>© 2026 Borja Carrasco–Todos los derechos reservados.</p>
+            <p>Diseñada con ♡ por Patricia Ortiz</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js"></script>
+    <script src="../js/script.js"></script>
+
+
+</body>
+
+</html>

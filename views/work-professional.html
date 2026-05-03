@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Borja Carrasco | Professional Work</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/work-professional.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar--solid">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logoprueba1000.png" alt="logo BC">
+            </a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="./work.html" class="active">WORK</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="pro-page">
+
+        <!-- HERO -->
+
+        <div class="pro-hero text-center">
+            <a href="./work.html" class="pro-back">
+                <i class="fa-solid fa-arrow-left"></i> Back to Work
+            </a>
+            <span class="work-label">Professional Work · VFX Artist</span>
+            <h2 class="work-title">PRODUCTION FX</h2>
+            <p class="work-subtitle">Film, episodic and studio productions</p>
+        </div>
+
+        <!-- CONTROLES (solo sort) -->
+
+        <div class="pro-controls">
+            <div class="sort">
+                <span>Sort by:</span>
+                <select id="sortSelect">
+                    <option value="newest">Newest</option>
+                    <option value="oldest">Oldest</option>
+                </select>
+            </div>
+        </div>
+        <section class="pro-grid">
+
+            <!-- 1 -->
+            <div class="project-card" data-date="2024">
+                <video muted loop playsinline>
+                    <source src="../assets/videos/alienoid00000000.mp4">
+                </video>
+                <div class="overlay">
+                    <h3>Alienoide: Return to the Future</h3>
+                    <p class="meta"> Prime Video · 2024</p>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="project-card" data-date="2025">
+                <video muted loop playsinline>
+                    <source src="../assets/videos/marathon00000000.mp4">
+                </video>
+                <div class="overlay">
+                    <h3>Marathon</h3>
+                    <p class="meta">Bungie · 2025</p>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="project-card" data-date="2023">
+                <video muted loop playsinline>
+                    <source src="../assets/videos/moving00000000.mp4">
+                </video>
+                <div class="overlay">
+                    <h3>Moving</h3>
+                    <p class="meta">Disney Plus · 2023</p>
+                </div>
+            </div>
+
+            <!-- 4 -->
+
+            <div class="project-card" data-date="2023">
+                <video muted loop playsinline>
+                    <source src="../assets/videos/silo00000000.mp4">
+                </video>
+                <div class="overlay">
+                    <h3>Silo</h3>
+                    <p class="meta">Apple TV · 2023</p>
+                </div>
+            </div>
+
+            <div class="video-modal" id="videoModal">
+                <span class="close-modal" id="closeModal">&times;</span>
+                <video controls id="modalVideo"></video>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="contacto-container">
+            <div class="info-contacto">
+                <p>Like what you see? <br>
+                    <span>Let's create something amazing together</span>
+                </p>
+            </div>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/borja-carrasco/">
+                    <i class="fa-brands fa-linkedin"></i>
+                    Borja Carrasco
+                </a>
+                <a href="mailto:borjacarrasco25@gmail.com">
+                    <i class="fa-regular fa-envelope"></i>
+                    Email
+                </a>
+            </div>
+        </div>
+        <div class="footer-container">
+            <p>© 2026 Borja Carrasco – Todos los derechos reservados.</p>
+            <p>Diseñada con ♡ por Patricia Ortiz</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
